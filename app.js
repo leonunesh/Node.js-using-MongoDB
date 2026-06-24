@@ -10,7 +10,7 @@ import { createAuthorsRouter } from './routes/authorsRoutes.js';
 async function run() {
   const app = express();
   const PORT = 3000;
-  const uri = 'mongodb://leonardohostins:LlJj99419646*@ac-yeplson-shard-00-00.ctdfb6d.mongodb.net:27017,ac-yeplson-shard-00-01.ctdfb6d.mongodb.net:27017,ac-yeplson-shard-00-02.ctdfb6d.mongodb.net:27017/?ssl=true&replicaSet=atlas-h00mv1-shard-0&authSource=admin&appName=myCluster1';
+  const uri = 'mongodb://leonardohostins:<db_password>@ac-yeplson-shard-00-00.ctdfb6d.mongodb.net:27017,ac-yeplson-shard-00-01.ctdfb6d.mongodb.net:27017,ac-yeplson-shard-00-02.ctdfb6d.mongodb.net:27017/?ssl=true&replicaSet=atlas-h00mv1-shard-0&authSource=admin&appName=myCluster1';
 
   try {
     // Create database connection
